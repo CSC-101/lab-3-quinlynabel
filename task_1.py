@@ -11,7 +11,7 @@ print(result)
 
 def copy(nums:list[int]) -> list[int]:
     new_list = [] #new list
-    for idx in range(len(nums)):
+    for idx in range(len(nums)): #loop
         new_list.append(nums[idx])  #Record each value of new_list and idx at the end of the loop body. new_list: 4, 9, 2, 1 idx: 0, 1, 2, 3
     return new_list  #How does this loop differ from that above? The first loop uses the numbers directly whereas the second loop uses the position to get the numbers.
 
